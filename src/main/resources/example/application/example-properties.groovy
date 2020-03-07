@@ -5,6 +5,6 @@ git{
         name="sample-project"
         url="https://github.com/e-Mela/sample-project.git"
         branch="master"
-        credentials("Github")
+        github_credential ="Github"
     }
 }
