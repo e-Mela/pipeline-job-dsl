@@ -5,8 +5,7 @@ job('example-project-build') {
     scm {
         git {
             remote {
-                name('origin')
-                url(config.git.project.url)
+                github('eMela/sample-project', 'ssh')
                 credentials(config.git.github_credential)
             }
             branch(config.git.project.branch)
