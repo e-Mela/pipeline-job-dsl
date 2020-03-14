@@ -6,7 +6,7 @@ job('example-project-build') {
         git {
             remote {
                 github('eMela/sample-project', 'ssh')
-                credentials(config.git.github_credential)
+                credentials('github_credential')
             }
             branch(config.git.project.branch)
         }
